@@ -1,0 +1,44 @@
+img{
+    width: 25%;
+    height: 60%;
+    display: block;
+}
+.avatar {
+    margin: 20px;
+    /* margin-left:20px; */
+    vertical-align: bottom;
+    width: 20%;
+    height: 55%;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .cover{
+      width: 100%;
+  }
+  .cont{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-image:url("cover3.jfif");
+    height: 50%;
+    width:100%;
+
+  }
+  a{
+      text-decoration: none;
+      color: darkslategrey;
+      font-weight: bold;
+
+      
+
+  }
+  li{
+      padding: 5px;
+  }
+  .footer{
+      background-color: black;
+      color:darkgray;
+      padding: 10px;
+
+  }
+ 
