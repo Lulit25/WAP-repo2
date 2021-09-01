@@ -1,0 +1,49 @@
+/* Name: Lulit Hailemariam
+This file contains the style for the page Grandma's pie.html */
+body{
+    background-color: white;
+    color:#404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond, sans-serif;
+    background-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/silverware.jpg');
+}
+a{
+    color: #A4A400;
+}
+h1{
+    font-size: 22pt;
+}
+h1, h2{
+    color:#A4A400;
+    background-color: #F0F0F0;
+    font-family: Lucida Sans Unicode, Helvetica, Arial;
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    letter-spacing: 0.25em;
+}
+h2{
+    text-align: left;
+    font-size: 18pt;
+}
+.cake{
+    text-decoration: line-through;
+}
+.underlined{
+    text-decoration:  underline;
+    border-bottom: 2px dotted;
+}
+ul li{
+    list-style-image: url('https://courses.cs.washington.edu/courses/cse190m/09sp/homework/1/pie_icon.gif');
+}
+.subcomment{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #FFFFA8 ;
+}
+.copyright{
+
+    font-family: monospace;
+    max-width:250px;
+    text-align:right;
+}

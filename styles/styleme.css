@@ -1,0 +1,99 @@
+body{
+    background-image: url("../images/cover3.jfif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-size: 18px;
+
+}
+h1{
+    font-family: Tahoma;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+  
+}
+.intro{
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: darkslategray
+}
+.text{
+    text-align: center;
+    font-style: italic;
+}
+.cont{
+    margin-left: 8%;
+    margin-right: 8%;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.travel{
+    height: 20%;
+    width: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+.about{
+    background-color: lightslategray;
+    text-align: center;
+    border-radius: 3%;
+    
+}
+.cources li{
+    padding: 5px;
+    list-style-type:circle;
+    font-style: oblique;
+    font-weight: bold;
+}
+.cources{
+    width: 50%;
+    float: left;
+    margin-top: 4%;
+}
+.movies li{
+    padding: 5px;
+    list-style-type:circle;
+    font-style: oblique;
+    color: black;
+    }
+.movies{
+    width: 50%;
+    margin-top: 4%;
+    float: left;
+}
+.mood{
+    margin-top: 43%;
+    background-color: lightslategray;
+    border-radius: 3%;
+    text-align: center;
+}
+.moodpic{
+    height: 25%;
+    width: 30%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    margin-left: 7%;
+}
+.funFacts{
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color:darkgray;
+    padding: 10px;
+
+}
