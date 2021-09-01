@@ -11,6 +11,7 @@ h1{
     font-weight: bolder;
     font-style: italic;
     text-align: center;
+    color:darkgoldenrod;
 }
 
 h2{
@@ -18,7 +19,16 @@ h2{
     font-weight: bolder;
     font-style: italic;
     text-align: center;
-  
+    color: rgb(97, 71, 7);;
+   
+}
+
+p::first-letter{
+    
+    font-size: 25px;
+    line-height: 1;
+    font-weight: bold;
+    
 }
 .intro{
     font-style: italic;
@@ -34,10 +44,16 @@ h2{
     margin-left: 8%;
     margin-right: 8%;
 }
+li{
+    font-weight: bold;
+    }
 a{
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color:brown;
+}
+a:hover{
+    text-decoration: underline;
 }
 .travel{
     height: 20%;
@@ -49,7 +65,7 @@ a{
 .about{
     background-color: lightslategray;
     text-align: center;
-    border-radius: 3%;
+    border-radius: 25px;
     
 }
 .cources li{
@@ -57,27 +73,39 @@ a{
     list-style-type:circle;
     font-style: oblique;
     font-weight: bold;
+       
+
 }
 .cources{
-    width: 50%;
-    float: left;
-    margin-top: 4%;
+    background-color:lightsteelblue;
+    border-radius: 3%;
+  
 }
 .movies li{
     padding: 5px;
-    list-style-type:circle;
     font-style: oblique;
     color: black;
     }
+li dl{
+    margin-left: 3%;
+    
+}
+dt{
+    margin-right: 3%;
+    color:rgb(97, 71, 7);
+}
+    dd{
+    font-style: italic;
+}
 .movies{
-    width: 50%;
-    margin-top: 4%;
-    float: left;
+   background-color:lightslategray ;
+   border-radius: 25px;
+
 }
 .mood{
-    margin-top: 43%;
-    background-color: lightslategray;
-    border-radius: 3%;
+  
+    background-color: lightsteelblue;
+    border-radius: 25px;
     text-align: center;
 }
 .moodpic{
@@ -90,6 +118,9 @@ a{
 }
 .funFacts{
     text-align: center;
+    background-color:lightslategray ;
+    border-radius: 25px;
+
 }
 .footer{
     background-color: black;
