@@ -28,6 +28,10 @@ h1{
     display: flex;
 
 }
+.entry{
+    margin-left: 50px;
+display: inline;
+}
 
 .checkbox{
     margin-top: 10px;
