@@ -1,0 +1,19 @@
+body{
+    color: gray;
+}
+.cont{
+    margin:auto;
+    width: 400px;
+    margin-top: 15%;
+    
+}
+li{
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: darkslategray;
+    font-size: 18pt;
+    font-weight: bold;
+
+}
