@@ -1,0 +1,44 @@
+.cont{
+    margin:auto;
+    width:550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top:10%;
+}
+.cont input{
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width:40%;
+    margin-left: 3%;
+    font-size: 13pt;
+}
+img{
+    height:110px;
+    width: 110px;
+    float:left;
+    
+}
+h1{
+text-align: start, end ;
+}
+.inner{
+    margin-top:16%;
+}
+button{
+    padding:2%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: wheat;
+    margin-top:5%;
+    margin-left: 3%;
+    font-size: 15pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+p{
+    font-weight: bold;
+    font-size: 22pt;
+}
+label{
+    font-size: 18pt;
+}
