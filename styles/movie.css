@@ -1,0 +1,127 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma, or any sans-serif font;
+    background-image: url("../images/background.png");
+
+}
+h1{
+    text-align: center;
+    font-family: e Tahoma, Verdana;
+    font-size: 24pt;
+    text-shadow: 3px 3px #999999;
+}
+.banner{
+    width: 100%;
+}
+#cont{
+    width:800px;
+    margin: auto;
+    border: 4px solid gray;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.leftcont{
+    width:550px;    
+    background-image: url("../images/background.png");
+    overflow: hidden;
+}
+.rightcont{
+    width:250px;
+    float:right;
+    overflow: hidden;  
+    background-color: #A2B964; 
+    height: 100%;
+    
+}
+.rotten2{
+    background-image: url("../images/rbg.png");
+    height:83px;
+    width: 100%;
+    font-size: 48pt;
+    font-weight: bold;
+    color:red;
+    text-align: left;
+    font-style: italic;
+}
+.rotten2 img{
+    height: 83px;
+    float: left;
+}
+
+.left{
+    width:47%;
+    float:left;
+    padding-right: 2%;
+    margin-left: 2%;
+}
+.right{
+    width:47%;
+    float:right;
+    margin-right: 2%;
+}
+.reivew{
+    background-color: #E8DC9B;
+    font-size: 8pt;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding:8px;
+    padding-bottom: 15px;
+    margin-top: 20pt;
+    text-align: justify;
+    font-weight: bold;
+    
+
+    
+}
+.reivew img{
+    float: left;
+    padding-right:5px;
+
+}
+.reviewer{
+    
+    padding-left:0px;
+    display: inline-block;
+    
+}
+
+.name{
+
+    font-style: italic;
+    text-align: justify;
+}
+.name img{
+    float: left;
+}
+.rightcontent{
+    padding:10px;
+    font-size: 8pt;
+    font-family: Arial, sans-serif;
+}
+.rightcontent dt{
+    font-weight: bold;
+    margin-top:10px;
+}
+.rightcontent a{
+   text-decoration: none;
+    list-style-type: none ;
+}
+.rightcontent ul{
+     list-style-type: none ;
+ }
+ .validators{
+     float:right;
+ }
+ .page{
+     text-align: center;
+     width:100%;
+     background-color: #A2B964; 
+     position: absolute;
+     bottom: 0px;
+    
+ }

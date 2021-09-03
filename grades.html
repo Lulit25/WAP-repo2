@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Retrieve Grade</title>
+    <link rel="stylesheet" type="text/css" href="styles/grades.css">
+
+    </head>
+    <body>
+        <h1>Retrieve your grade</h1>
+        <div class="cont">
+        <form action="http://mumstudents.org/params.php">
+            <div class="name">
+            <label class="mainlabel" for="name">Name:</label>
+            <input class ="txt" type="text" id="name" name="name"><br>
+            <label class="mainlabel" for="id">Student ID:</label>
+            <input class ="txt" type="text" id="id" name="id"><br>   
+        </div>
+    <div class="radios">
+    <br>
+    <label  class="mainlabel" for="name">Pick entry:</label>
+            <input type="radio" id="february" name="february" value="February">
+            <label  for="html">February</label>
+            <input type="radio" id="may" name="may" value="may">
+            <label  for="css">May</label>
+            <input type="radio" id="august" name="august" value="august">
+            <label  for="javascript">August</label>
+            <input type="radio" id="november" name="november" value="november">
+            <label  for="javascript">November</label>
+        </div>
+    <div class="dropdown">
+        <label  class="mainlabel" for="cars">Choose a Course:</label>
+
+            <select class="txt" name="cources" id="cources">
+            <option value="assignment1">Assignment 1</option>
+            <option value="assignment2">Assignment 2</option>
+            <option value="assignment3">Assignment 3</option>
+            <option value="assignment4">Assignemnt 4</option>
+            </select>
+        <br>
+        </div>
+        <input class="btn" type="submit" id="submit" value="Get Grades"> 
+        <div>
+            <div class="checkbox">
+        <input type="checkbox" id="certify" name="certify" value="certify">
+        <label for="certify"> I certify that the information I have given is correct.</label><br>
+    </div>
+
+    </div>
+          </form>
+        </div>
+    </body>
+</html> 
+
+
+
