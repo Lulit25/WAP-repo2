@@ -1,0 +1,44 @@
+body{
+    font-size:14pt ;
+    background-color:#CCCCFF;
+    margin:auto;
+}
+h1{
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+}
+.area{
+
+    
+   
+    margin: auto;
+    
+}
+textarea{
+    width:90%;
+    height:400px;
+    font-family:monospace;
+    font-size: 12pt;
+    margin:auto;
+
+    display: flex;
+    justify-content: center;
+    transition-delay: 200ms;
+}
+fieldset{
+    border-radius: 5px black;
+    display:inline;
+    margin:auto;
+    text-align: center;
+    vertical-align: top;
+    border: 5px solid black;
+}
+.cont{
+    margin:auto;
+    width:600px;
+}
+.validators{
+
+    float:right;
+}

@@ -1,0 +1,15 @@
+#cont{
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    background-color: lightgrey;
+    margin-top:10%;
+}
+input{
+    padding:5px;
+    margin:10px;
+}
+button{
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
